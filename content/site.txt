@@ -1,0 +1,9 @@
+Title: Zen Framework
+----
+Author: Travis Maynard
+----
+Description: Zen Framework
+----
+Keywords: css, zen, garden, framework
+----
+Copyright: © 2012-(date: Year) (link: http://travismaynard.com text: Travis Maynard)

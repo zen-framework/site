@@ -1,0 +1,61 @@
+/**********/
+/* LAYOUT */
+/**********/
+
+    /* WVU Header */
+    #wvu-header {background: url('../img/wvu-header.png') top center no-repeat; background-color:#0062A9; }
+    #wvu-header-content {position:relative; overflow:hidden;}
+    #wvu-logo {text-align:center; width:100%; height:30px; padding:1em 0;}
+    #wvu-links {text-align:center; width:100%; font-size:12px; color:#ffcc00; margin:0; padding:0 0 1em 0;}
+    #wvu-links ul {list-style-type:none; white-space:break-word; color:#fff; margin:0; padding:0;}
+    #wvu-links ul li {line-height:1.5; padding:.5em; display:inline-block;}
+    #wvu-links ul li a {color:#fff; text-decoration:none;}
+    #wvu-links ul li a.WVUHome {color:#ffcc00;}
+    #wvu-links ul li a:hover {text-decoration:underline;}
+    #content-jump {position:absolute; top:-9999px;}
+
+    /* HSC Header */
+    #hsc-header { background: url('../src/img/black-trans.png'); background:rgba(0, 0, 0, 0.75); overflow:hidden; position:relative; z-index:1 }
+    #hsc-header-content {text-align:center;}
+    #hsc-logo a { font-size: 0.7em; color: #fff; text-transform: uppercase; text-decoration: none; padding: .35em 0; display: block; }
+    #hsc-logo a:hover {color: #eee;}
+
+    /* WVU Footer */
+    #wvu-footer {
+        color:#fff; 
+        font-size:0.65em; 
+        text-align:center; 
+        padding:2em 0; 
+        background:#222;
+        overflow:hidden; 
+        clear:both;
+    }
+    #wvu-footer-content {}
+    #wvu-footer-contact {line-height:1.5; margin:0 auto 0 auto;}
+    #wvu-footer-contact h1 {font-weight:100; margin:0;}
+    #wvu-footer-contact p {margin:0;}
+    #wvu-footer-contact a {color:#fff; text-decoration:none; border-bottom:1px solid;}
+
+    #wvu-footer-links {width:100%;}
+
+    #wvu-footer-sites {list-style-type:none; margin:1em 0; padding:0; text-align:center;}
+    #wvu-footer-sites li {line-height:1.5; margin:0 0 0 5px; display:inline;}
+    #wvu-footer-sites li a {color:#fff; text-decoration:none; border-bottom:1px solid #fff;}
+    #wvu-footer-sites li a:hover {}
+    #wvu-footer-social {list-style-type:none; margin:1.5em 0; padding:0; overflow:hidden;}
+    #wvu-footer-social li {display:inline;}
+    #wvu-footer-social li a {text-decoration:none;}
+
+
+@media screen and (min-width:680px) {
+
+    /**********/
+    /* LAYOUT */
+    /**********/
+
+    /* WVU Header */
+    #wvu-logo {text-align:left; width:50%; float:left;}
+    #wvu-links {text-align:right; width:50%; padding:1em 0; float:right;}
+
+    /* HSC Header */
+    #hsc-header-content {text-align: left;}
