@@ -6,4 +6,4 @@ Description: Zen Framework
 ----
 Keywords: css, zen, garden, framework
 ----
-Copyright: © 2012-(date: Year) (link: http://travismaynard.com text: Travis Maynard)
+Copyright: This project is open source and you can fork it on [GitHub](http://github.com/zen-framework "Zen Framework on GitHub").

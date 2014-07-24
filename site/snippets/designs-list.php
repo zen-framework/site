@@ -5,11 +5,9 @@
             <img src="http://placehold.it/300x250" alt="">
         </div>
         <div class="block-content">
-            
             <h2><?php echo $design->title() ?></h2>
             <p><?php echo excerpt($design->text(), 300) ?></p>
-            <a href="" class="btn">Learn More</a>
-
+            <a href="" class="button">Learn More</a>
         </div>
     </div>
 <?php endforeach ?>
