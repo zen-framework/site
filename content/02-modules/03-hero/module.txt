@@ -1,0 +1,18 @@
+Title: Hero
+----
+Image: 
+----
+Text: The Hero module is used to display large, graphical information. This can be layered and used for slideshows if the need arises.
+----
+Snippet:
+<div class="hero">
+    <img src="http://placehold.it/960x350" alt="Hero Image">
+    <div class="hero-extra">
+        <!-- For Extra Design Elements (eg. Color Overlays) -->
+    </div>
+    <div class="hero-content">
+        <h1>Hero Title</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut cum, quos quibusdam, doloremque quidem dolores maiores voluptatem. Laboriosam ipsam, facere nam quas, ut similique unde ratione sint dicta earum possimus?</p>
+        <a href="#" class="hero-link">Hero Link</a>
+    </div>
+</div>

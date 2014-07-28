@@ -1,0 +1,21 @@
+Title: Menu
+----
+Image: 
+----
+Text: The Menu module is similar to the Navigation module, but is instead used to navigated content below the top level. It was initially designed to be used as a vertical alternative to the Navigation module, however you can feel free to use it horizontally as well. 
+----
+Snippet:
+<div class="menu">
+    <div class="menu-header">
+        <h2>Menu Example</h2>
+    </div>
+    <div class="menu-content">
+        <ul class="menu-items">
+            <li><a href="#">Link One</a></li>
+            <li><a href="#">Link Two</a></li>
+            <li><a href="#">Link Three</a></li>
+            <li><a href="#">Link Four</a></li>
+            <li><a href="#">Link Five</a></li>
+        </ul>
+    </div>
+</div>

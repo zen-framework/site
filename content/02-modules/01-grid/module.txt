@@ -1,0 +1,21 @@
+Title: Grid
+----
+Image: 
+----
+Text: The grid we use is a bit different that most traditional grids. Instead of pre-defining measurements, we simply created a consistent set of class names that allow the designer to customize the column sizing across the board.
+----
+Snippet:
+<div class="grp grp-four"> <!-- Expects four ".col-" divs. -->
+    <div class="col col-one">
+        <!-- Column One -->
+    </div>
+    <div class="col col-two">
+        <!-- Column Two -->
+    </div>
+    <div class="col col-three">
+        <!-- Column Three -->
+    </div>
+    <div class="col col-four">
+        <!-- Column Four -->
+    </div>
+</div>

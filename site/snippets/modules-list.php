@@ -1,4 +1,4 @@
-<?php foreach($pages->find('modules')->children()->visible()->flip() as $module): ?>
+<?php foreach($pages->find('modules')->children()->visible() as $module): ?>
     <div class="block">
         <div class="block-image">
             <!-- Can Be Used For Photo Or Icon -->
@@ -8,7 +8,10 @@
             
             <h2><?php echo $module->title() ?></h2>
             <p><?php echo excerpt($module->text(), 300) ?></p>
-            <a href="" class="button">Learn More</a>
+            <ul class="chain">
+                <li><a href="#" class="button">Learn More</a></li>
+                <li><a href="#" class="button">View Snippet</a></li>
+            </ul>
 
         </div>
     </div>

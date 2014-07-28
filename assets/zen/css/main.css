@@ -193,8 +193,8 @@
     .list li > a:hover {text-decoration:none;}
 
     /* Link Chain */
-    .chain {}
-    .chain > li {}
+    .chain {list-style:none; margin:0; padding:0;}
+    .chain > li {margin-right:1em; display:inline-block;}
     .chain > li > a {}
     .chain > li > a:hover {}
     
@@ -205,7 +205,7 @@
     .search-button {}
 
     /* Button */
-    .button {color:#fff; text-decoration:none; padding:.75em 1em; background:#222; border-radius:2px; display:inline-block;}
+    .button {color:#fff; text-decoration:none; padding:.75em 1em; background:#222; border-radius:2px; display:inline-block; transition:background ease .5s;}
     .button:hover {background:#444;}
 
 

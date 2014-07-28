@@ -1,0 +1,12 @@
+Title: Navigation
+----
+Image: 
+----
+Text: The Navigation module is a simple list that is intented to be used horizontally. For using links vertically, check out the Menu module.
+----
+Snippet:
+<ul class="navigation">
+    <li><a href="#" class="active">Link One</a></li>
+    <li><a href="#">Link Two</a></li>
+    <li><a href="#">Link Three</a></li>
+</ul>
