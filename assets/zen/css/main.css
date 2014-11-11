@@ -60,7 +60,7 @@
     #navbar-content {}
 
     /* Core */
-    #core {}
+    #core {margin-top:2em;}
     #core-content {}
 
     /* Footer */
@@ -208,6 +208,43 @@
     .button {color:#fff; text-decoration:none; padding:.75em 1em; background:#222; border-radius:2px; display:inline-block; transition:background ease .5s;}
     .button:hover {background:#444;}
 
+    /* Animations */
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    @-webkit-keyframes fade-in-up {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 5%, 0);
+            transform: translate3d(0, 5%, 0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+    @keyframes fade-in-up {
+        0% {
+            opacity: 0;
+            -webkit-transform: translate3d(0, 5%, 0);
+            transform: translate3d(0, 5%, 0);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: none;
+            transform: none;
+        }
+    }
+    .fade-in-up {
+        -webkit-animation-name: fade-in-up;
+        animation-name: fade-in-up;
+    }
+
 
 /*************/
 /* MODIFIERS */
@@ -292,7 +329,7 @@
 
     /* Navigation */
     .navigation {text-align:right; margin:0; padding:0; display:block;}
-    .navigation li {width:auto; margin:0 .5em; border:0px; display:inline-block;}
+    .navigation li {width:auto; margin:0 1.25em; border:0px; display:inline-block;}
     .navigation li:last-child {border:0px;}
     .navigation li a {color:var(pri-blue); padding:0 0 .25em 0; border:none;}
     .navigation li a.active {background:none; border-bottom:2px solid #fff;}
